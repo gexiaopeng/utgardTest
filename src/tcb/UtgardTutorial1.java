@@ -40,7 +40,7 @@ public class UtgardTutorial1 {
 		final Server server = new Server(ci, Executors.newSingleThreadScheduledExecutor());
 
 		try {
-			// 连接到服务
+			// 连接到服务   
 			System.out.println("--begin-connect-----");
 			server.connect();
 			System.out.println("---end--connect-----");
